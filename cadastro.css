@@ -1,0 +1,21 @@
+.label{
+    -fx-border-color: transparent;
+    -fx-text-fill: black;
+    -fx-effect:dropshadow(one-pass-box , black , 8 , 0.0 , 3 , 0 );
+}
+.button{
+    -fx-font-family: "Times new Roman", Georgia, Serif;
+    -fx-font-size: 11pt;
+    -fx-background-color: #9fa8da indigo lighten-3;
+}
+.combo-box{
+  -fx-font-family: "Times new Roman", Georgia, Serif;
+  -fx-font-size: 11pt;
+  -fx-background-color: #9fa8da indigo lighten-3;
+}
+.button.voltar{
+  -fx-background-color: transparent;
+  -fx-background-image:url("pngwing(1).png");
+  -fx-pref-height: 30px;
+  -fx-pref-width: 30px;
+}

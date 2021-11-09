@@ -1,0 +1,78 @@
+.label{
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-effect:dropshadow(one-pass-box , black , 8 , 0.0 , 3 , 0 );
+}
+.button{
+    -fx-font-family: "Times new Roman", Georgia, Serif;
+    -fx-font-size: 11pt;
+    -fx-background-color: transparent;
+}
+.button.usuario{
+    -fx-background-image:url("bt_usuario.png");
+    -fx-pref-height: 120px;
+    -fx-pref-width: 120px;
+}
+.button.paciente{
+    -fx-background-image:url("boy.png");
+    -fx-pref-height: 120px;
+    -fx-pref-width: 120px;
+}
+/*
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: #63a4ff;
+    -fx-background-radius: 5;
+    -fx-fontsize: 22;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+.button:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 7;
+    -fx-fontsize: 22;
+    -fx-text-fill: light-blue darken-4;
+    -fx-border-color: blue-grey lighten-2;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    -fx-background-color: -fx-shadow-black, -fx-outer-border, -fx-inner-border, -fx-body-color;
+}
+*/
+.button:hover{
+    
+    -fx-background-color: #9575cd;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em; /* 4 8 4 8 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+.button:pressed{
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-fontsize: 22;
+    -fx-text-fill: #5B5A5A;
+    -fx-border-color: #5B5A5A;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;   
+}
+
+.button:focused{
+    -fx-font-weight: bold;
+    -fx-background-color:  lightslategrey;
+    -fx-background-radius: 5;
+    -fx-fontsize: 22;
+    -fx-text-fill: black;
+    -fx-border-color: #666666;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+    
+}
+
+
+
